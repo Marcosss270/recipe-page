@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #f3e6d8;
+}
+
+.container{
+    width: 680px;
+    height: auto;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.img img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.container1{
+    padding: 20px 0;
+}
+
+.container2{
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff5fa;
+    font-family: "Outfit", sans-serif;
+}
+
+.container2 h3{
+    color: #7b284f;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    
+}
+
+h2{
+    margin-bottom: 15px;
+    color: #854632;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+p{
+    color: #5f574e;
+    font-family: "Outfit", sans-serif;
+}
+
+li{
+    color: #5f574e;
+    padding: 5px 8px;
+    font-family: "Outfit", sans-serif;
+}
+
+ul, ol{
+    padding: 0 15px;
+}
+
+span{
+    font-weight: bold
+}
+
+.container3{
+    padding: 20px 0;
+    border-bottom: 1px solid #0000001a;
+}
+
+.container4{
+    padding: 20px 0;
+    border-bottom: 1px solid #0000001a;
+}
+
+.container5{
+    padding: 20px 0;
+}
+
+.container5 p{
+    padding: 10px 0;
+}
+
+.container5 li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #0000001a;    
+}
+
+.container5 span{
+    color: #854632;
+}
