@@ -49,6 +49,7 @@ body{
 h1{
     font-family: "Young Serif", serif;
     font-weight: 400;
+    padding-bottom: 15px;
     
 }
 
@@ -66,7 +67,7 @@ p{
 
 li{
     color: #5f574e;
-    padding: 5px 8px;
+    padding: 6px 0 6px 6px;
     font-family: "Outfit", sans-serif;
 }
 
@@ -80,12 +81,12 @@ span{
 
 .container3{
     padding: 20px 0;
-    border-bottom: 1px solid #0000001a;
+    border-bottom: 1px solid #00000033;
 }
 
 .container4{
     padding: 20px 0;
-    border-bottom: 1px solid #0000001a;
+    border-bottom: 1px solid #00000033;
 }
 
 .container5{
@@ -101,9 +102,26 @@ span{
     display: flex;
     justify-content: space-between;
     padding: 15px 0;
-    border-bottom: 1px solid #0000001a;    
+    border-bottom: 1px solid #00000033;    
 }
 
-.container5 span{
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Outfit", sans-serif;
+}
+
+th{
+    padding: 10px;
+    text-align: left;
+    font-weight: 400;
+    color: #5f574e;
+    border-bottom: 1px solid #00000033;
+}
+
+td{
+    padding: 10px;
+    font-weight: 700;
     color: #854632;
+    border-bottom: 1px solid #00000033;
 }
